@@ -1,0 +1,158 @@
+/**
+ * List shortcode CSS.
+ */ 
+.file-thumb-align-float-left{
+    float: left;
+}
+
+.file-thumb-align-float-right{
+    float: right;
+}
+
+.file-thumb-align-left{
+    text-align: left;
+    width: 100%;
+}
+
+.file-thumb-align-right{
+    text-align: right;
+    width: 100%;
+}
+
+.file-thumb-align-center{
+    text-align: center;
+    width: 100%;
+}
+
+.accp-past-due-notice{
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:11px;
+    color:#fff;
+    background-color:darkorange;
+    padding:1px 4px 0px 4px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.accp-due-date{
+    font-size: 12px;
+}
+
+.accp-post-status{
+    font-size: 12px;    
+}
+
+.accp-list-item-meta .accp-post-meta-item:not(:last-child):after{
+    content:'|';
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.accp-list-item-meta .accp-due-date.accp-post-meta-item::after{
+    content: none;
+}
+
+.accp_documents_filelist .accp-file-list-item-title a{
+    text-decoration-color: none;
+}
+
+.accp-file-list-item-title{
+    margin-top: 12px;
+    display: block;
+}
+
+.accp-file-post-date{
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.accp-item-container{
+    background: #f9f9f9 none repeat scroll 0 0;
+    border-bottom: 1px solid #efefef;
+    border-top: 1px solid #efefef;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.accp_documents_filelist .accp-list-item-meta{
+    margin-bottom: 10px;
+}
+
+.accp-page-nav-container{
+    border: 1px solid #f9f9f9;
+    padding: 10px;
+}
+
+.accp-pay-btn{
+    -moz-user-select: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #0070ba;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: normal;
+    line-height: 14.9654px;
+    margin: 20px 0 5px 0;
+    text-align: center;
+    text-indent: 0;
+    transition: all 0.2s ease-out 0s;               
+}
+
+.accp-pay-btn a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    min-width: 66px;
+    padding: 14px 16px;
+    display: block;
+}
+
+a.accp-pay-link{
+    color: #fff;
+}
+
+.accp-view-dl-link-container a{
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.accp-pay-btn:hover{
+    background-color: #3cacf6;
+}
+
+.accp-list-item-thumbnail-container.file-loop-thumbnail.file-thumb-align-float-left {
+    margin-right: 20px;
+}
+
+.accp-list-item-thumbnail-container.file-loop-thumbnail.file-thumb-align-float-right {
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 360px) {
+
+    .accp-list-item-thumbnail-container.file-loop-thumbnail.file-thumb-align-float-left {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .accp-list-item-thumbnail-container.file-loop-thumbnail.file-thumb-align-float-right {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (min-width: 250px) {
+
+    .accp-item-container{
+        min-width: 175px;
+    }
+
+}

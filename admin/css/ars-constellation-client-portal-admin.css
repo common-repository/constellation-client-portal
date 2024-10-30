@@ -1,0 +1,979 @@
+/**
+ * Core Admin CSS.
+ */
+#client-meta .select2{
+	width: 100% !important;
+}
+
+.inside .select2{
+	width: 100% !important;
+}
+
+ul.home-page-hov-nav.row-actions{
+	margin-top: 0;
+}
+
+.home-page-hov-nav li{
+	display: inline;
+	font-size: 13px;
+}
+
+.home-page-hov-nav li:first-child::after{
+	content: "|";
+	color: #ddd;
+	margin-right: 4px;
+	margin-left: 4px;
+	font-size: 12px;
+}
+
+.accp-field-instructions, .accp-specify-dir-field-instructions{
+	font-style: italic;
+}
+
+.blue-text{
+	color: #00a0d2;
+}
+
+.accp-number-column{
+	width: 40px;
+	text-align: center;
+}
+
+.dir-explorer-icon{
+	margin-right: 10px;
+	cursor: pointer;
+	color: #afafaf;
+}
+
+.fa.fa-folder.dir-explorer-icon, .fa.fa-folder-open.dir-explorer-icon{
+	font-size: 19px;
+}
+
+.file-detail-row{
+	display: none;
+}
+
+.main-dir-row.even-row, .file-detail-row.even-row{
+	background-color: #f9f9f9;
+}
+
+.main-dir-row.odd-row, .file-detail-row.odd-row{
+	background-color: transparent !important;
+}
+
+.unassigned-text{
+	color: #B1B1B1;
+}
+
+.file-controls{
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.file-del-confirm-div, .dir-del-confirm-div{
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	background: #e6e8ff50;
+	width: 63%;
+	padding-left: 15px;
+	padding-top: 25px;
+	display: none;
+}
+
+.del-btn-container, .del-dir-btn-container{
+	display: block;
+	margin-top: 8px;
+}
+
+.inactive-text{
+	color: #B1B1B1;
+}
+
+.small-note{
+	font-size: 11px;
+	font-style: italic;
+}
+
+.tax-role-exclude{
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.tax-company-exclude{
+	margin-bottom: 15px;
+}
+
+.tax-user-exclude .select2,
+.tax-role-exclude .select2,
+.tax-company-exclude .select2,
+.tax-custom-select .select2{
+	width: 95% !important;
+}
+
+.accp-settings-messages-and-errors-item.notice{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.accp-settings-note.small-note{
+	display: block;
+	margin-top: 7px;
+}
+
+#accp-admin-main-content{
+	max-width: 100%;
+	background-color: #fff;
+	padding: 20px 30px 30px 30px;
+}
+
+.accp-functioning-correctly{
+	border: 1px solid green;
+	padding: 7px;
+	background-color: #cee8ce;
+}
+
+.accp-function-error{
+	border: 1px solid red;
+	padding: 7px;
+	background-color: #ffcece;
+}
+
+.company-assign-container .select2-selection__arrow{
+	top: 10px !important;
+	right: 3px !important;
+}
+
+.accp-upgrade-tab-banner{
+	background-color: #005be0;
+	color: #FFF;
+	padding: 40px;
+	margin-top: 17px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.accp-upgrade-tab-banner h2{
+	color: #fff;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.accp-upgrade-tab-banner p{
+	font-size: 18px;
+	font-style: italic;
+}
+
+.accp-upgrade-feature-list-heading{
+	color: #005be0;
+	font-size: 24px;
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.accp-upgrade-tab-banner a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 22px;
+}
+
+.accp-upgrade-tab-banner a::after{
+	content: '>';
+	font-weight: bold;
+	font-size: 22px;
+	margin-left: 5px;
+}
+
+.accp-upgrade-button{
+	background-color: orange;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-size: 26px;
+	padding: 18px;
+	width: 126px;
+	margin-top: 15px;
+	border-radius: 2px;
+	color: #fff;
+	border: 3px solid;
+	margin-left: auto;
+	margin-right: auto;
+	text-transform: uppercase;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	margin-top: 35px;
+}
+
+.accp-settings-page-container .accp-upgrade-button{
+	border-radius: 8px;
+}
+
+.accp-upgrade-button:hover{
+	background-color: #ffa500e0;
+}
+
+.accp-upgrade-button:hover{
+	color: #fff;
+}
+
+.accp-setting-logo-container{
+	background-color: #fff;
+}
+
+.accp-setting-logo-container img{
+	width: 80%;
+	max-width: 300px;
+}
+
+#accp-admin-sidebar{
+	width: 27%;
+	float: right;
+}
+
+.delete-screen-notice{
+	display: inline-block;
+	margin-top: 6px;
+	color: orangered;
+	font-size: 15px;
+	background: #fff;
+	padding: 20px;
+	width: 95%;
+}
+
+.accp-filemgmt-tablenav .pagination-links{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.accp-filemgmt-button .page-numbers{
+	color: #23282d;
+}
+.accp-filemgmt-button .page-numbers .disabled{
+	color: #a0a5aa !important;
+}
+
+.accp-filemgmt-button.button{
+	margin-right: 5px !important;
+}
+.accp-filemgmt-button.button:last-child{
+	margin-right: 0px !important;
+}
+
+.accp-filemgmt-button a{
+	text-decoration: none;
+}
+
+.accp-filemgmt-button .page-numbers{
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+li.accp-filemgmt-button.button{
+	padding: 0 !important;
+	overflow: hidden;
+	height: 30px;
+}
+
+.shortcode-markup{
+	border: 1px solid #ccc;
+	background-color: #efefef;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.accp-filemgmt-button .page-numbers.prev, .accp-filemgmt-button .page-numbers.next{
+	font-size: 15px;
+	top: -2px;
+	position: relative;
+}
+.accp-row-add, .accp-row-delete{
+	cursor: pointer;
+}
+
+.accp-row-delete{
+	margin-left: 15px;
+}
+
+.accp-hide-assigment{
+	display: none;
+}
+.accp-file-replace-hide{
+	display: none;
+}
+
+.inline.accp-admin-notice.notice{
+	margin-left: 0px;
+}
+
+#curr_file_container{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+}
+
+.accp-hide-assigment .select2-container--default .select2-selection--single,
+.company-assign-container .select2-container--default .select2-selection--single{
+	height: 45px;
+	padding-top: 7px;
+}
+
+.wp-admin input[type="file"].accp-upload-btn{
+	padding-left: 7px;
+	padding-right: 7px;
+	min-height: 35px;
+}
+
+.accp-settings-section{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	margin-bottom: 25px;
+	box-shadow: 2px 2px 7px rgba(0,0,0, 0.1);
+	color: #5C5C5C;
+}
+
+.accp-settings-section h3{
+	color: #3A3A3A;
+}
+
+.accp-settings-section h2{
+	color: #005be0;
+	font-weight: normal;
+	font-size: 22px;
+}
+
+ul.theme-thumb-list{
+	list-style: none;
+}
+
+ul.theme-thumb-list li{
+	border: 1px solid #ccc;
+	background: #efefef;
+	padding: 5px;
+	width: 47%;
+}
+
+/* Odd */
+ul.theme-thumb-list li:nth-child(2n+1){
+	float: left;
+}
+
+/* Even */
+ul.theme-thumb-list li:nth-child(2n){
+	float: right;
+}
+
+.floated-container{
+	float: left;
+}
+
+.accp-license-display{
+	border: 1px solid #ccc;
+	background: #efefef;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+select[name="accp_login_redirect_select"]{
+	margin-top: 7px;
+}
+
+ul.accp-settings-tabs{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 25px;
+}
+
+.accp-settings-tabs li{
+	display: inline-block;
+	background-color: #e0e0e0;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 5px;
+	border-top: 1px solid #d3d3d3;
+	border-left: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+#accp-shorcode-list-table-container{
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.accp-shortcode-col-heading-row,
+.accp-saved-shortcode-item-row{
+	display: table-row;
+	height: 60px;
+	border-bottom: 1px solid #eee;
+}
+
+.accp-shortcode-col-heading{
+	font-weight: bold;
+	color: #777;
+}
+
+.accp-add-shortcode-btn-container{
+	text-align: right;
+	margin-top: 15px;
+}
+
+.accp-row-action-col-heading{
+	visibility: hidden;
+}
+
+.accp-shortcode-item-cell{
+	display: table-cell;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.accp-shortcode-item-cell a{
+	text-decoration: none;
+}
+
+input.accp-copy-text-enabled{
+	cursor: pointer;
+	background-color: #eee;
+	padding: 5px 7px 7px 7px;
+	border-radius: 3px;
+	border: none;
+	text-align: center;
+}
+
+.accp-shortcode-input-container{
+	position: relative;
+}
+
+.accp-shortcode-input-container:hover::after{
+	display: block;
+}
+
+.accp-shortcode-input-container::after{
+	content: "\f0c5";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 400;
+	position: absolute;
+	right: 5px;
+	display: none;
+}
+
+.accp-shortcode-input-container.accp-element-copied::after{
+	content: "\f00c";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	position: absolute;
+	right: 5px;
+	top: 0;
+	color: #259d25;
+}
+
+.accp-settings-tabs li:hover{
+	background-color: #fff;
+}
+
+.accp-settings-tabs li:hover a{
+	color: #135e96;
+}
+.accp-settings-tabs li a:focus{
+	color: #135e96;
+}
+
+.accp-settings-tabs li[data-tab-status="active"]{
+	background-color: #fff;
+	color: #135e96;
+}
+
+.accp-settings-tabs li[data-tab-status="active"] > a{
+	color: #135e96;
+}
+
+.accp-settings-tabs a{
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #8F8F8F;
+}
+
+.accp-settings-tabs a:focus{
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.accp-settings-tab{
+	display: none;
+}
+
+.accp-settings-tab[data-tab-content-status="active"]{
+	display: block;
+}
+
+.accp-create-page-container{
+	margin-top: 15px;
+}
+
+.accp-new-page-title{
+	margin-bottom: 10px;
+}
+
+.accp-generate-page-form .accp-create-new-page-instructions{
+	margin-top: 25px;
+	display: block;
+}
+
+.accp-generate-page-form{
+	display: none;
+}
+
+.tablenav .select2-selection.select2-selection--single{
+	height: 100%;
+	border-radius: 3px;
+	border: 1px solid #8c8f94;
+	background: #fff url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E') no-repeat right 5px top 55%;
+	background-size: auto;
+	background-size: 16px 16px;
+}
+
+.tablenav .select2-selection.select2-selection--single b{
+	display: none;
+}
+
+label .title.accp-quickedit-invoice-status-label{
+	width: auto !important;
+	margin-right: 5px !important;
+}
+
+.accp-admin-invoice-data-quickedit{
+	margin-bottom: 0;
+}
+
+.accp-duplicate-dir-assignment-notice{
+	padding: 15px;
+	border: 2px solid #ff5e5e;
+	background-color: #ffdbdb;
+	margin-bottom: 15px;
+}
+
+.accp-reassign-directory-button.button{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.accp-dir-reassign-option{
+	background-color: #f6f7f7;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 25px;
+	border: 1px solid #eeefef;
+}
+
+.accp-field-note{
+	font-style: italic;
+	color: #808080;
+	font-size: 12px;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.accp-boxed-container{
+	background-color: #f6f7f7;
+	border: 1px solid #eeefef;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.accp-boxed-container.current-assigned-company-container{
+	margin-bottom: 20px;
+}
+
+.accp-boxed-container label{
+	font-weight: 600;
+	padding-top: 15px;
+}
+
+.accp-or-sparator{
+	font-weight: 600;
+}
+
+.accp-admin-tooltip-icon{
+	content: 'i';
+	color: #fff;
+	background-color: #5A5A5A;
+	border-radius: 50%;
+	width: 12px;
+	height: 12px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	display: inline-block;
+	text-align: center;
+	font-size: 9px;
+	padding-top: 1px;
+	position: relative;
+	top: -10px;
+	cursor: pointer;
+}
+
+.accp-admin-tooltip-icon:hover + .accp-wp-admin-tooltip{
+	visibility: visible;
+}
+
+.accp-wp-admin-tooltip{
+	position: absolute;
+	z-index: 1;
+	width: 150px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	visibility: hidden;
+	margin-top: -100px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #3c434a;
+	line-height: 18px;
+	pointer-events: none;
+}
+
+.accp-wp-admin-tooltip-dark{
+	position: absolute;
+	z-index: 1;
+	width: 150px;
+	background-color: #3c434a;
+	padding: 10px;
+	border-radius: 5px;
+	visibility: hidden;
+	margin-top: -100px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #fff;
+	line-height: 18px;
+	pointer-events: none;
+}
+
+.accp-wp-admin-tooltip.accp-user-status-tooltip{
+	left: 0;
+}
+
+.accp-wp-admin-tooltip::after{
+	content:'';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	border-top: solid 10px #ffffff;
+	border-left: solid 10px transparent;
+	border-right: solid 10px transparent;
+	margin-left: -60px;
+	width: 0;
+	height: 0;
+}
+
+.accp-wp-admin-tooltip-dark::after{
+	border-top: solid 10px #3c434a;
+}
+
+.accp-wp-admin-has-tooltip-center{
+	left: 12%;
+	margin-top: -115px;
+}
+
+.accp-company-global-page-tooltip{
+	margin-top: -143px;
+}
+
+.accp-generate-page-form p.accp-create-new-page-instructions{
+	margin-top: 20px;
+}
+
+.accp-generate-new-page-field-container{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.button.button-primary.accp-generate-new-page{
+	margin-top: 15px;
+}
+
+.accp-unpublished-company-item{
+	padding: 10px;
+	background-color: #fff;
+	margin-right: 7px;
+	border-radius: 3px;
+}
+
+.accp-delete-unpublished-company-item{
+	display: inline-block;
+	background-color: #C3C3C3;
+	width: 15px;
+	text-align: center;
+	padding-right: 1px;
+	cursor: pointer;
+}
+
+.accp-column-pointer-item{
+	cursor: pointer;
+}
+
+.accp-spinner.spinner{
+	margin-top: 20px;
+}
+
+.accp-spinner.spinner.accp-spinner-after-bulk-edit{
+	margin-top: 0px;
+}
+
+.accp-spinner.spinner.accp-reassign-company-button-spinner{
+	margin-top: 0;
+}
+
+.accp-reassign-company-notice{
+	color: #b32d2e;
+}
+
+option.accp-non-published-post-option{
+	color: #717171;
+}
+
+.accp-boxed-container label[for="accp_make_page_global"]{
+	display: block;
+	padding-bottom: 15px;
+}
+
+.accp-boxed-container.accp-specify-company-field-container .select2-container{
+	padding-bottom: 15px;
+}
+
+.accp-boxed-container.current-assigned-company-container p{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.accp-directory-assigned{
+	display: none;
+}
+
+.accp-reassign-btn-cancel{
+	display: none;
+}
+
+.accp-dir-update-notice{
+	border: 2px solid #c9d1de;
+	background-color: #e0e8f5;
+	padding: 10px;
+}
+
+.accp-dir-update-check-label{
+	display: block;
+	margin-bottom: 10px;
+}
+
+#accp-create-user-container{
+	margin-top: 25px;
+}
+
+.accp-new-user-field{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.accp-set-width-label-85{
+	width: 85px;
+	display: inline-block;
+}
+
+#accp-autogenerate-password{
+	margin-left: 10px;
+}
+
+.accp-generate-user-message{
+	display: block;
+	margin-bottom: 7px;
+	color: #b72a0a;
+}
+
+.accp-create-user-cancel-button-text{
+	display: none;
+}
+
+#accp-create-user-container{
+	display: none;
+}
+
+#accp-assign-primary-user-container{
+	border: 1px solid #eeefef;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	background-color: #f6f7f7;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 25px;
+}
+
+.accp-assign-primary-user-heading{
+	display: block;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.accp-upgrade-pro-feature-item-container{
+	box-shadow: 2px 2px 7px rgba(0,0,0, 0.1);
+	border-radius: 8px;
+	padding: 25px;
+	margin: 20px;
+}
+
+.accp-upgrade-pro-feature-item-container:hover{
+	background-color: #005be0;
+}
+
+.accp-upgrade-pro-feature-content-container{
+	position: relative;
+}
+
+.accp-hover-upgrade-button{
+	display: none;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	border: 2px solid;
+	text-align: center;
+	max-width: 90%;
+	padding-top: 7px;
+	padding-bottom: 9px;
+	width: 220px;
+	position: absolute;
+	top: 40%;
+}
+
+.accp-upgrade-pro-feature-item-container:hover > a .accp-upgrade-pro-feature-content-container{
+	display: flex;
+	justify-content: center;
+}
+
+.accp-upgrade-pro-feature-item-container:hover > a .accp-upgrade-pro-feature-item-title{
+	color: #fff;
+}
+
+.accp-upgrade-pro-feature-item-container:hover > a p{
+	visibility: hidden;
+}
+
+.accp-upgrade-pro-feature-item-container:hover > a .accp-hover-upgrade-button{
+	display: block;
+}
+
+.accp-upgrade-pro-feature-item-title{
+	font-size: 21px;
+	line-height: 27px;
+	color: #005be0;
+}
+
+.accp-upgrade-pro-feature-item-container p{
+	color: #777;
+	font-size: 14px;
+}
+
+.accp-upgrade-pro-feature-item-container a{
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.accp-settings-section-inner{
+	border-bottom: 1px solid #eee;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+}
+
+.company_status_row{
+	margin-bottom: 15px;
+}
+
+.company_status_row label,
+.company_status_row input,
+.company_status_row select{
+	margin-right: 5px;
+}
+
+.company_status_row .accp-row-add{
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.company_status_row i{
+	font-size: 15px;
+	position: relative;
+	top: 2px;
+	color: #737373;
+}
+
+.accp-add-status-row.button{
+	cursor: pointer;
+}
+
+.accp-action-pending{
+	pointer-events: none;
+}
+
+#accp-settings-sidebar-container{
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#accp-settings-sidebar-container a{
+	text-decoration: none;
+}
+
+.accp-settings-page-container.wrap{
+	background-color: #fff;
+	min-height: 800px;
+}
+
+.accp-admin-main-content-header{
+	margin-bottom: 15px;
+}
+
+#accp-admin-main-content h1{
+	color: #005be0;
+	font-weight: normal;
+	font-size: 28px;
+	padding-left: 20px;
+}
+
+#accp-post-edit-nonce{
+	display: none !important;
+}
+
+@media screen and (min-width: 980px){
+
+	.accp-upgrade-pro-feature-short-list{
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}
+
+	#accp-settings-sidebar-container{
+		width: 200px;
+		float: left;
+	}
+
+	#accp-admin-main-content{
+		margin-left: 200px;
+	}
+
+}
